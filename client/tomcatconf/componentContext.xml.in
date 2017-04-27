@@ -106,6 +106,8 @@
         class="org.apache.cloudstack.storage.datastore.provider.SwiftImageStoreProviderImpl"/>
   <bean id="solidFireDataStoreProvider"
         class="org.apache.cloudstack.storage.datastore.provider.SolidfirePrimaryDataStoreProvider"/>
+  <bean id="dateraDataStoreProvider"
+          class="org.apache.cloudstack.storage.datastore.provider.DateraPrimaryDataStoreProvider"/>
 
   <!--Storage Providers-->
   <bean id="dataStoreProviderManager"
@@ -117,6 +119,7 @@
         <ref local="s3ImageStoreProviderImpl"/>
         <ref local="swiftImageStoreProviderImpl"/>
         <ref local="solidFireDataStoreProvider"/>
+        <ref local="dateraDataStoreProvider"/>
       </list>
     </property>
   </bean>
