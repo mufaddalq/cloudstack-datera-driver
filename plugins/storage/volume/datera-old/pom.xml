@@ -22,7 +22,7 @@
   <dependencies>
     <dependency>
       <groupId>org.apache.cloudstack</groupId>
-      <artifactId>cloud-plugin-storage-volume-default</artifactId>
+      <artifactId>cloud-engine-storage-volume</artifactId>
       <version>${project.version}</version>
     </dependency>
     <dependency>
@@ -40,11 +40,6 @@
       <artifactId>aspectjtools</artifactId>
       <version>1.6.10</version>
       <scope>test</scope>
-    </dependency>
-    <dependency>
-      <groupId>com.google.http-client</groupId>
-      <artifactId>google-http-client</artifactId>
-      <version>1.17.0-rc</version>
     </dependency>
   </dependencies>
   <build>
